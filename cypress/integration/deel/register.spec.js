@@ -28,15 +28,10 @@ describe("Registration" , () => {
     it("Fill the registration form ", ()=>{
         cy.get(':nth-child(2) > .input-container > .input').type("Samuel Aniefiok")
         cy.get(':nth-child(3) > .input-container > .input').type("samuel.aniefiok91@gmail.com")
-        cy.get(':nth-child(4) > .input-container > .input').type("WEEKend12!")
-        cy.get(':nth-child(5) > .input-container > .input').type("WEEKend12!")
+        cy.get(':nth-child(4) > .input-container > .input').type("COMputer12!")
+        cy.get(':nth-child(5) > .input-container > .input').type("COMputer12!")
         cy.get('.select__value-container').click().select('Google')
             
-        //cy.get('.select__single-value').select(4)
-        //cy.get('.css-19bqh2r > path').select('Email')
-        //cy.get('Email invite').select('Email invite')
-
-
     })
         
 

@@ -1,0 +1,14 @@
+{
+  "name": "deel",
+  "version": "1.0.0",
+  "description": "a place for remote work",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Samuel Aniefiok",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^9.2.0"
+  }
+}

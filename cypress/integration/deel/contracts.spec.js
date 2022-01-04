@@ -13,15 +13,13 @@ describe("Contracts" , () => {
     cy.get('.flex > .input-container input').click();
     cy.get('.flex > .input-container input').type('samuel.aniefiok91@gmail.com');
     cy.get('.mt-9 > .input-container input').type('COMputer12!');
-    cy.get('.opacity-0').click();
-    cy.get('form').submit();
+    cy.get('.mt-10').click()
 
       })
      it("Creating a fixed Contract", ()=>{
-            cy.url().should('contains', 'https://app.deel.training/');
-            cy.url().should('contains', 'https://js.stripe.com/v3/m-outer-fd3c67f2efa9f22f2ecd16b13f2a7fb3.html');
-            cy.url().should('contains', 'https://m.stripe.network/inner.html');
+            cy.get('.mobile-header-content-container > .button').click();
             cy.get('.mb-2:nth-child(2) .sidebar-option-p').click();
+            cy.get(':nth-child(1) > .anchor > .box').click()
             cy.get('.deel-ui__select__single-value').click();
             cy.get('.deel-ui__input-component__input_placeholder').click();
             cy.get('.deel-ui__input-component__input_placeholder').type('QA FREELANCER');
